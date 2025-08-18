@@ -21,6 +21,8 @@
     <ul>
       <li>Lawn Mowing</li>
       <li>Edging & Trimming</li>
+      <li>Leaf Removal</li>
+      <li>Fertilizing</li>
     </ul>
   </section>
 
@@ -32,17 +34,18 @@
 
   <!-- Gallery Section -->
   <section id="gallery">
-    <img src="BROS MOWS.png" alt="logo">
+    <img src="BROS MOWS.png" alt="BrosMows Logo">
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Us</h2>
-    <!-- Formspree form -->
     <form action="https://formspree.io/f/mayvlqge" method="POST">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="_replyto" placeholder="Your Email" required>
       <textarea name="message" placeholder="Message" required></textarea>
+      <!-- Redirect to thank-you page after submission -->
+      <input type="hidden" name="_next" value="https://brosmows.github.io/thank-you.html">
       <button type="submit">Send</button>
     </form>
     <p>Email: brosmows255@gmail.com</p>
